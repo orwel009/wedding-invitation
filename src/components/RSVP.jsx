@@ -10,14 +10,18 @@ const RSVP = () => {
         <form
           name="rsvp"
           method="POST"
-          action="/thank-you"
           data-netlify="true"
           netlify-honeypot="bot-field"
           className="bg-pink-50 p-8 rounded-2xl shadow-lg space-y-6"
         >
-          {/* Required hidden fields */}
+          {/* REQUIRED hidden fields */}
           <input type="hidden" name="form-name" value="rsvp" />
           <input type="hidden" name="bot-field" />
+          <input
+            type="hidden"
+            name="redirect"
+            value="/thank-you"
+          />
 
           {/* Name */}
           <div>
@@ -86,7 +90,6 @@ const RSVP = () => {
             ></textarea>
           </div>
 
-          {/* Submit */}
           <button
             type="submit"
             className="w-full py-3 bg-pink-500 hover:bg-pink-600 transition text-white font-semibold rounded-full shadow-md"

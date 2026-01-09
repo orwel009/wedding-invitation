@@ -40,9 +40,11 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <form name="rsvp" method="POST" action="/thank-you" data-netlify="true" hidden>
+  <form name="rsvp" method="POST" data-netlify="true" hidden>
     <input type="hidden" name="form-name" value="rsvp" />
+    <input type="hidden" name="redirect" value="/thank-you" />
   </form>
+
 </body>
 
 </html>
