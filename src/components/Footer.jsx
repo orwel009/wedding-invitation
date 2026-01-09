@@ -14,7 +14,7 @@ const Footer = () => {
         <p className="text-sm">
           With blessings from <br />
           <span className="font-medium">
-            K.C. Unnikrishnan & Shyja Unnikrishnan
+            K.C. Unnikrishnan & Shaija Unnikrishnan
           </span>
         </p>
 

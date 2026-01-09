@@ -19,7 +19,7 @@ const Hero = () => {
         </p>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4">
-          Sradha Krishna <span className="text-pink-300">&</span> Ram Mohan
+          Sradhakrishna <span className="text-pink-300">&</span> Ram Mohan
         </h1>
 
         <p className="text-lg md:text-xl mb-2">

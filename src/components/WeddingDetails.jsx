@@ -33,7 +33,7 @@ const WeddingDetails = () => {
         <div className="mt-12 text-center text-gray-700">
           <p className="font-semibold">With blessings of</p>
           <p className="mt-2">
-            K.C. Unnikrishnan & Shyja Unnikrishnan
+            K.C. Unnikrishnan & Shaija Unnikrishnan
           </p>
           <p className="text-sm mt-1">
             Kadavilparambil House, Puthenvelikkara
