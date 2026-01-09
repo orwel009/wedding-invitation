@@ -10,10 +10,14 @@ const RSVP = () => {
         <form
           name="rsvp"
           method="POST"
+          action="/thank-you"
           data-netlify="true"
+          netlify-honeypot="bot-field"
           className="bg-pink-50 p-8 rounded-2xl shadow-lg space-y-6"
         >
+          {/* Required hidden fields */}
           <input type="hidden" name="form-name" value="rsvp" />
+          <input type="hidden" name="bot-field" />
 
           {/* Name */}
           <div>
